@@ -40,3 +40,9 @@ jobs:
     - name: Test with pytest
       run: |
         python sitemap.py https://techduffer.com/sitemap.xml
+        cat output.txt
+        python getposts.py
+        cat posts.txt
+        python findClients.py
+        cat links.txt
+        
